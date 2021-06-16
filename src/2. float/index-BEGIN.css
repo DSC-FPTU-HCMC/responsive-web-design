@@ -1,27 +1,30 @@
 body {
+    margin: 0;
     font-size:40px;
     text-align: center;
     line-height: 100px;
     vertical-align: middle;
 }
 
-#header {
+.header {
     height: 150px;
     background-color: skyblue;
 }
 
-#sideContentWrapper {
-    /* width: 100%;
-    float: none; */
+.side-content {
     background: #cccccc;
     min-height: 200px;
 }
 
-#mainContent {
-    /* width: 100%;
-    float: none; */
+.main-content {
     background: slategray;
     min-height: 200px;
 }
 
-/* @media queries */
+/* 
+    TODO:
+    When window.innerWidth > 768px
+    Then set side-content width to 40%
+    And set main-content width to 60%
+    And side-content and main-content should be in the same row
+*/

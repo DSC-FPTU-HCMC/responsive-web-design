@@ -57,32 +57,18 @@ body {
     max-width: 320px;
 }
 
-@media screen and (min-width: 768px) {
-    .rightside .item {
-        flex-direction: row;
-    }
+/* 
+    TODO:
+    When window.innerWidth > 768px
+    Then separate 2 cols for every right side item
+        - col 1: img
+        - col 2: text with fullwidth
+*/
 
-    .item p {
-        max-width: max-content;
-        margin-left: 12px;
-        text-align: left;
-    }
-}
-
-@media screen and (min-width: 980px) {
-    .container {
-        max-width: 980px;
-        grid-template-columns: 1fr auto;
-    }
-
-    .rightside-wrap {
-        position: relative;
-        width: 328px;
-    }
-
-    .rightside {
-        position: fixed;
-        top: 48px;
-        width: 328px;
-    }
-}
+/* 
+    TODO:
+    When window.innerWidth > 980px
+    Then set the max width container to 980px
+    And stick the bottom content to the right side bar
+    And the right side bar should have max-width = 328px
+*/

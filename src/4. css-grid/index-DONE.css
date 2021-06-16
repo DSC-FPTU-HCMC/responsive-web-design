@@ -56,3 +56,31 @@ body {
     text-align: center;
     max-width: 320px;
 }
+
+@media screen and (min-width: 768px) {
+    .rightside .item {
+        flex-direction: row;
+    }
+
+    .item p {
+        max-width: max-content;
+        margin-left: 12px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .container {
+        max-width: 980px;
+        grid-template-columns: 1fr auto;
+    }
+
+    .rightside-wrap {
+        width: 328px;
+    }
+
+    .rightside {
+        position: fixed;
+        width: 328px;
+    }
+}

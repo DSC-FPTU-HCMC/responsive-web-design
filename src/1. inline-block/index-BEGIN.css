@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.mainContent {
+  margin: 40px;
+}
+
+.red, .yellow, .green, .blue {
+  height: 200px;
+  white-space: nowrap;
+}
+
+.red {
+  background: #d10d0d;
+}
+
+.green {
+  background: #0b970b;
+}
+
+.yellow {
+  background: #e0e810;
+}
+
+.blue {
+  background: #0808d3;
+}
+
+/* 
+  TODO:
+  When window.innerWidth > 768px
+  Then reduce the color box to 50%
+  And keep two boxes per row
+*/
+
+/* 
+  TODO:
+  When window.innerWidth > 1440px
+  Then reduce the color box to 25%
+  And keep four boxes per row
+*/

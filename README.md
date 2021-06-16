@@ -1,9 +1,8 @@
 # Responsive Web Design Presentation
-F-Code Club - FPTU HCM
 <br/>
-Presenter: Quang Dat Pham - <quangdat2000.pham@gmail.com>
-  
-  
+Presenter: Quang Dat Pham
+
+
 ## Objectives
 
 -	Understand Responsive Web Design
@@ -26,10 +25,6 @@ Presenter: Quang Dat Pham - <quangdat2000.pham@gmail.com>
 -	Fluid Website Design: Websites that are built with fluid design use `percentages for widths`.
 
 -	Fixed Design: Websites that are built using fixed design rely on `fixed pixel widths`. While a design with fixed dimensions can sometimes be the quickest way to get up and running, it’ll provide a less user-friendly across multiple devices.
-
-
-## Practices
-https://github.com/quangdatpham/fcode-responsive-web-design
 
 ## References
 - Nisha Gopinath Menon, **Everything you need to know about responsive web design**,
